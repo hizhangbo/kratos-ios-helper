@@ -17,7 +17,7 @@ import (
 	_ "go.uber.org/automaxprocs"
 )
 
-// go build -ldflags "-X main.Version=x.y.z main.flagconf=config.yaml" -o KratosKeepAlive cmd/kratos-ios-helper/main.go
+// go build -ldflags "-X main.Version=x.y.z main.flagconf=config.yaml" -o kratos-ios-helper cmd/kratos-ios-helper/main.go
 var (
 	// Name is the name of the compiled software.
 	Name string
