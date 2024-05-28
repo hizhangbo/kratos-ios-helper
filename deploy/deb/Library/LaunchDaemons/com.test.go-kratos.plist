@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>KratosKeepAlive</string>
+    <string>kratos-ios-helper</string>
     <key>platform-application</key>
     <true/>
 
     <key>Program</key>
-    <string>/usr/bin/KratosKeepAlive</string>
+    <string>/usr/bin/kratos-ios-helper</string>
     <key>ProgramArguments</key>
     <array>
             <string></string>

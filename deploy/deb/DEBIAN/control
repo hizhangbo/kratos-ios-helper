@@ -1,5 +1,5 @@
 Package: com.test.go-kratos
-Name: KratosKeepAlive
+Name: kratos-ios-helper
 Version: 0.0.1
 Architecture: all
 Description: keep alive

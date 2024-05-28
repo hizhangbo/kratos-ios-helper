@@ -3,11 +3,11 @@
 # 4
 echo "postinst..."
 
-chown root:wheel /usr/bin/KratosKeepAlive
+chown root:wheel /usr/bin/kratos-ios-helper
 chown root:wheel /Library/LaunchDaemons/com.test.go-kratos.plist
 
-chmod 755 /usr/bin/KratosKeepAlive
-ldid -S/Library/LaunchDaemons/com.test.go-kratos.plist /usr/bin/KratosKeepAlive
+chmod 755 /usr/bin/kratos-ios-helper
+ldid -S/Library/LaunchDaemons/com.test.go-kratos.plist /usr/bin/kratos-ios-helper
 
 
 launchctl load -w /Library/LaunchDaemons/com.test.go-kratos.plist
