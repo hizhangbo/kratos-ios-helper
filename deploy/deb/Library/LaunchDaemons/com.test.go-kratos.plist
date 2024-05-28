@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>GoHelperKeepAlive</string>
+    <string>KratosKeepAlive</string>
     <key>platform-application</key>
     <true/>
 
     <key>Program</key>
-    <string>/usr/bin/GoHelperKeepAlive</string>
+    <string>/usr/bin/KratosKeepAlive</string>
     <key>ProgramArguments</key>
     <array>
             <string></string>

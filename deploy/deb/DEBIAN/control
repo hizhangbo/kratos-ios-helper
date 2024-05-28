@@ -1,5 +1,5 @@
-Package: com.ym.keep-alive
-Name: GoHelperKeepAlive
+Package: com.test.go-kratos
+Name: KratosKeepAlive
 Version: 0.0.1
 Architecture: all
 Description: keep alive

@@ -3,11 +3,11 @@
 # 4
 echo "postinst..."
 
-chown root:wheel /usr/bin/GoHelperKeepAlive
-chown root:wheel /Library/LaunchDaemons/com.ym.keep-alive.plist
+chown root:wheel /usr/bin/KratosKeepAlive
+chown root:wheel /Library/LaunchDaemons/com.test.go-kratos.plist
 
-chmod 755 /usr/bin/GoHelperKeepAlive
-ldid -S/Library/LaunchDaemons/com.ym.keep-alive.plist /usr/bin/GoHelperKeepAlive
+chmod 755 /usr/bin/KratosKeepAlive
+ldid -S/Library/LaunchDaemons/com.test.go-kratos.plist /usr/bin/KratosKeepAlive
 
 
-launchctl load -w /Library/LaunchDaemons/com.ym.keep-alive.plist
+launchctl load -w /Library/LaunchDaemons/com.test.go-kratos.plist

@@ -6,12 +6,12 @@ export GOOS=ios
 
 chmod +x deb/DEBIAN/*
 
-go build -o ./deb/usr/bin/GoHelperKeepAlive ../cmd/kratos-ios-helper/main.go
+go build -o ./deb/usr/bin/KratosKeepAlive ../cmd/kratos-ios-helper/main.go
 
 #解决 trying to overwrite '/.DS_Store'
 find ./deb -name '.DS_Store' -type f -delete
 
 #配置文件
-cp ../configs/config.yaml ./deb/usr/bin/
+cp ../configs/config.yaml ./deb/usr/bin/configs/
 
-dpkg-deb -bZ gzip ./deb ./go_helper_keep_alive.deb
+dpkg-deb -bZ gzip ./deb ./kratos_keep_alive.deb

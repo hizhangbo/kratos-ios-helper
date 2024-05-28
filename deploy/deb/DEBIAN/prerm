@@ -2,8 +2,8 @@
 
 # 1
 echo "prerm..."
-#/bin/launchctl unload -wF /System/Library/LaunchDaemons/com.ym.keep-alive.plist
+#/bin/launchctl unload -wF /System/Library/LaunchDaemons/com.test.go-kratos.plist
 
-launchctl unload /Library/LaunchDaemons/com.ym.keep-alive.plist
+launchctl unload /Library/LaunchDaemons/com.test.go-kratos.plist
 rm -f /qat/log/go_helper/*
-rm -f /usr/bin/config.yaml
+rm -f /usr/bin/configs/config.yaml
