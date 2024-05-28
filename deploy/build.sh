@@ -6,7 +6,7 @@ export GOOS=ios
 
 chmod +x deb/DEBIAN/*
 
-go build -ldflags "-X main.Version=$(VERSION)" -o ./deb/usr/bin/KratosKeepAlive ./...
+go build -ldflags "-X main.Version=$(VERSION)" -o ./deb/usr/bin/KratosKeepAlive ../...
 
 #解决 trying to overwrite '/.DS_Store'
 find ./deb -name '.DS_Store' -type f -delete
