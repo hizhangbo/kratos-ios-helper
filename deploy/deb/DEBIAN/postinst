@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# 4
+echo "postinst..."
+
+chown root:wheel /usr/bin/GoHelperKeepAlive
+chown root:wheel /Library/LaunchDaemons/com.ym.keep-alive.plist
+
+chmod 755 /usr/bin/GoHelperKeepAlive
+ldid -S/Library/LaunchDaemons/com.ym.keep-alive.plist /usr/bin/GoHelperKeepAlive
+
+
+launchctl load -w /Library/LaunchDaemons/com.ym.keep-alive.plist

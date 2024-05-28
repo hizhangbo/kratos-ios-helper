@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# 2
+echo "preinst..."
+#killall -9 applereceiptd;
+#applereceiptd;
+#exit 0;

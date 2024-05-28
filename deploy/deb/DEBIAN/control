@@ -1,0 +1,8 @@
+Package: com.ym.keep-alive
+Name: GoHelperKeepAlive
+Version: 0.0.1
+Architecture: all
+Description: keep alive
+Maintainer: larry
+Author: larry
+Section: Utilities

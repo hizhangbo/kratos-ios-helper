@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# 1
+echo "prerm..."
+#/bin/launchctl unload -wF /System/Library/LaunchDaemons/com.ym.keep-alive.plist
+
+launchctl unload /Library/LaunchDaemons/com.ym.keep-alive.plist
+rm -f /qat/log/go_helper/*
+rm -f /usr/bin/config.yaml
